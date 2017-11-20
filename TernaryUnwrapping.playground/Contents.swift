@@ -33,7 +33,7 @@ if let number = optionalNumber {
     sentence = nil
 }
 
-// This approach needs to force unwrap which isn't ideal.
+// This approach force unwraps which isn't ideal.
 let sentence1: String? = optionalNumber != nil ?  "My favorite number is \(optionalNumber!)" : nil
 
 // This approach is concise and leverages the Ternary Unwrapping Operator.
